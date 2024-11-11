@@ -1,2 +1,5 @@
 # Something-To-Declare
+
+`<FONTS DON'T COUNT FOR THE ASSET LICENSE AS THEY ARE NOT MINE>`
+
 GMS2 game.

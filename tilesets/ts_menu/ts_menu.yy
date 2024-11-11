@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_menu",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":4,
+    "SerialiseWidth":8,
+    "TileCompressedData":[-32,0,],
+    "TileDataFormat":1,
+  },
+  "name":"ts_menu",
+  "out_columns":5,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tiles_mainmenu",
+    "path":"sprites/spr_tiles_mainmenu/spr_tiles_mainmenu.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[
+    {"$GMTileAnimation":"","%Name":"animation_1","frames":[15,15,10,11,12,7,6,1,6,7,12,11,10,15,15,15,],"name":"animation_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_2","frames":[3,4,],"name":"animation_2","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_3","frames":[8,9,],"name":"animation_3","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+  ],
+  "tileAnimationSpeed":5.0,
+  "tileHeight":64,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":64,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":25,
+}

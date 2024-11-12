@@ -1,5 +1,5 @@
 # Something To Declare by MF366
-<img src="https://raw.githubusercontent.com/MF366-Coding/Something-To-Declare/main/logo.png" alt="Something To Declare's Logo featuring a design for the passport" align="right" width="100" height="100">
+<img src="https://raw.githubusercontent.com/MF366-Coding/Something-To-Declare/main/logo.png" alt="Something To Declare's Logo featuring a design for the passport" align="right" width="200" height="200">
 
 [![Latest Version](https://img.shields.io/github/v/tag/MF366-Coding/Something-To-Declare)](https://github.com/MF366-Coding/Something-To-Declare/releases/latest)
 [![Software License](https://img.shields.io/github/license/MF366-Coding/Something-To-Declare)](https://raw.githubusercontent.com/MF366-Coding/Something-To-Declare/main/LICENSE)

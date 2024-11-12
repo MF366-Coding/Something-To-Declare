@@ -5,7 +5,7 @@
 [![Software License](https://img.shields.io/github/license/MF366-Coding/Something-To-Declare)](https://raw.githubusercontent.com/MF366-Coding/Something-To-Declare/main/LICENSE)
 [![Asset License](https://img.shields.io/github/license/MF366-Coding/Something-To-Declare)](https://raw.githubusercontent.com/MF366-Coding/Something-To-Declare/main/ASSET_LICENSE)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/MF366-Coding/Something-To-Declare/total)
-![GitHub top language](https://img.shields.io/github/languages/top/MF366-Coding/Something-To-Declare)
+![GitHub top language](https://img.shields.io/github/languages/top/MF366-Coding/Something-To-Declare?color=lime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MF366-Coding/Something-To-Declare)
 
 ## About Licensing

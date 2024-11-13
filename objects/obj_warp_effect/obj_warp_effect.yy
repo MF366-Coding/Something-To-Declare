@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bindings",
+  "%Name":"obj_warp_effect",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
-  "managed":true,
-  "name":"obj_bindings",
+  "managed":false,
+  "name":"obj_warp_effect",
   "overriddenProperties":[],
   "parent":{
     "name":"Control",
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_rm_effect",
+    "path":"sprites/spr_rm_effect/spr_rm_effect.yy",
+  },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

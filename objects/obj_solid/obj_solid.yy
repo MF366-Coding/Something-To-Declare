@@ -1,19 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bindings",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_solid",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bindings",
+  "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
     "name":"Control",
     "path":"folders/Objects/Control.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,8 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"spr_visual_guide",
+    "path":"sprites/spr_visual_guide/spr_visual_guide.yy",
+  },
   "spriteMaskId":null,
   "visible":false,
 }

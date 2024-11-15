@@ -7,6 +7,8 @@ global.left_key = keyboard_check(vk_left) or keyboard_check(ord("A"));
 global.up_key = keyboard_check(vk_up) or keyboard_check(ord("W"));
 global.down_key = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
+global.sprint_key = keyboard_check(vk_shift);
+
 global.up_option_key = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"));
 global.down_option_key = keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S"));
 
@@ -27,34 +29,5 @@ if global.inter_key and global.inter_keystrokes > 0
 {
 	
 	global.inter_keystrokes--;
-	
-}
-
-// Cheat + Debug Keys //
-if global.debug_key_1
-{
-	
-	global.can_always_move_status = !(global.can_always_move_status) 
-	
-}
-
-if global.debug_key_2
-{
-	
-	global.wall_clip_status = !(global.wall_clip_status) 
-	
-}
-
-if global.debug_key_3
-{
-	
-	global.super_duper_speed_status = !(global.super_duper_speed_status) 
-	
-}
-
-if global.can_always_move_status == true and global.can_move == false
-{
-	
-	global.can_move = true;
 	
 }

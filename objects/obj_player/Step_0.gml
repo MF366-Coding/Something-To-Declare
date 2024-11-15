@@ -1,71 +1,14 @@
 // Changing the position values of the player
 
-if global.super_duper_speed_status { move_spd = 10; }
-else { move_spd = 1; }
+move_spd = 1;
 
 if global.control_device != "gamepad"
 {
 	
-	xspd = ((global.right_key - global.left_key) * move_spd) * global.can_move;
-	yspd = ((global.down_key - global.up_key) * move_spd) * global.can_move;
+	xspd = ((global.right_key - global.left_key) * (move_spd + global.sprint_key / 2)) * global.can_move;
+	yspd = ((global.down_key - global.up_key) * (move_spd + global.sprint_key / 2)) * global.can_move;
 	
 }
-
-
-/*
-else
-{
-	
-	// gotta check the Manual real quick
-	// dont remember the function name
-	var _cursor_x = window_mouse_get_x();
-	var _cursor_y = window_mouse_get_y();
-	
-	// By default, our xspd and yspd should remain 0 if the player is already at the right position
-	xspd = 0;
-	yspd = 0;
-	
-	
-	// Cursor X cases
-	if _cursor_x > x // Mouse X is greater than Player X = move right
-	{
-		
-		// Walk 1 step there
-		xspd = move_spd * global.can_move;
-		
-	}
-	
-	else if _cursor_x < x // Mouse X is lower than Player X = move left
-	{
-		
-		// Walk 1 step there
-		xspd = -(move_spd * global.can_move);
-		
-	}
-	
-	
-	// Cursor Y cases
-	// However remember GMS2 swaps Y
-	// that means that going down in GameMaker is actually increasing the Y value
-	if _cursor_y > y // Mouse Y is greater than Player Y = move down
-	{
-		
-		// Walk 1 step there
-		yspd = move_spd * global.can_move;
-		
-	}
-	
-	else if _cursor_y < y // Mouse Y is lower than Player Y = move up
-	{
-		
-		// Walk 1 step there
-		yspd = -(move_spd * global.can_move);
-		
-	}
-	
-}
-*/
-
 
 // Setting the correct sprite
 mask_index = sprite[IDLE_DOWN];
@@ -94,22 +37,22 @@ mask_index = sprite[face];
 
 
 // Handling collisions
-if place_meeting(x + xspd, y, obj_wall) == true and global.wall_clip_status != true
+if place_meeting(x + xspd, y, obj_wall) == true
 	{
 		xspd = 0;
 	}
 	
-if place_meeting(x, y + yspd, obj_wall) == true and global.wall_clip_status != true
+if place_meeting(x, y + yspd, obj_wall) == true
 	{
 		yspd = 0;
 	}
 
-if place_meeting(x + xspd, y, obj_warp_block) == true and global.wall_clip_status != true
+if place_meeting(x + xspd, y, obj_warp_block) == true
 	{
 		xspd = 0;
 	}
 	
-if place_meeting(x, y + yspd, obj_warp_block) == true and global.wall_clip_status != true
+if place_meeting(x, y + yspd, obj_warp_block) == true
 	{ 
 		yspd = 0;
 	}
